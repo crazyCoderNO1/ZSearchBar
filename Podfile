@@ -9,7 +9,7 @@ target 'ZSearchBar' do
   # Comment the next line if you don't want to use dynamic frameworks
   
 
-  # Pods for ModooOrderMerchant
+  # Pods for ZSearchBar
 
   pod 'Masonry' #自动布局
   
