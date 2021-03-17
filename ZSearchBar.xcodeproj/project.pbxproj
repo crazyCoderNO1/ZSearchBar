@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29FBE5D826026E980008B3B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FBE5D726026E980008B3B5 /* AppDelegate.m */; };
+		29FBE5DE26026E980008B3B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FBE5DD26026E980008B3B5 /* ViewController.m */; };
+		29FBE5E126026E980008B3B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FBE5DF26026E980008B3B5 /* Main.storyboard */; };
+		29FBE5E326026E9C0008B3B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FBE5E226026E9C0008B3B5 /* Assets.xcassets */; };
+		29FBE5E626026E9C0008B3B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FBE5E426026E9C0008B3B5 /* LaunchScreen.storyboard */; };
+		29FBE5E926026E9C0008B3B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FBE5E826026E9C0008B3B5 /* main.m */; };
+		29FBE5F426026F060008B3B5 /* ZSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FBE5F226026F060008B3B5 /* ZSearchBar.m */; };
+		29FBE5FD260272E00008B3B5 /* icon_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FBE5FB260272E00008B3B5 /* icon_search@3x.png */; };
+		29FBE5FE260272E00008B3B5 /* icon_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FBE5FC260272E00008B3B5 /* icon_search@2x.png */; };
+		29FBE6022602730F0008B3B5 /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FBE6012602730F0008B3B5 /* ViewControllerB.m */; };
+		4B3826069EDEFB5B0A832373 /* Pods_ZSearchBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3391BF5F00644A6D1047C1FB /* Pods_ZSearchBar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29FBE5D326026E980008B3B5 /* ZSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FBE5D626026E980008B3B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29FBE5D726026E980008B3B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29FBE5DC26026E980008B3B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29FBE5DD26026E980008B3B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29FBE5E026026E980008B3B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29FBE5E226026E9C0008B3B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29FBE5E526026E9C0008B3B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29FBE5E726026E9C0008B3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FBE5E826026E9C0008B3B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29FBE5F226026F060008B3B5 /* ZSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSearchBar.m; sourceTree = "<group>"; };
+		29FBE5F326026F060008B3B5 /* ZSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSearchBar.h; sourceTree = "<group>"; };
+		29FBE5FB260272E00008B3B5 /* icon_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_search@3x.png"; sourceTree = "<group>"; };
+		29FBE5FC260272E00008B3B5 /* icon_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_search@2x.png"; sourceTree = "<group>"; };
+		29FBE6002602730F0008B3B5 /* ViewControllerB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		29FBE6012602730F0008B3B5 /* ViewControllerB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
+		3391BF5F00644A6D1047C1FB /* Pods_ZSearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA672EA4475122B37D36D68E /* Pods-ZSearchBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSearchBar.debug.xcconfig"; path = "Target Support Files/Pods-ZSearchBar/Pods-ZSearchBar.debug.xcconfig"; sourceTree = "<group>"; };
+		FF232F2760AFB02FBA7E3A0E /* Pods-ZSearchBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSearchBar.release.xcconfig"; path = "Target Support Files/Pods-ZSearchBar/Pods-ZSearchBar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29FBE5D026026E980008B3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3826069EDEFB5B0A832373 /* Pods_ZSearchBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2973F4A5FC64785571D07150 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA672EA4475122B37D36D68E /* Pods-ZSearchBar.debug.xcconfig */,
+				FF232F2760AFB02FBA7E3A0E /* Pods-ZSearchBar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		29FBE5CA26026E980008B3B5 = {
+			isa = PBXGroup;
+			children = (
+				29FBE5D526026E980008B3B5 /* ZSearchBar */,
+				29FBE5D426026E980008B3B5 /* Products */,
+				2973F4A5FC64785571D07150 /* Pods */,
+				9AA196B7B91FB1D00A1CBD69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29FBE5D426026E980008B3B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29FBE5D326026E980008B3B5 /* ZSearchBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29FBE5D526026E980008B3B5 /* ZSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				29FBE5F126026EF80008B3B5 /* SearchBar */,
+				29FBE5D626026E980008B3B5 /* AppDelegate.h */,
+				29FBE5D726026E980008B3B5 /* AppDelegate.m */,
+				29FBE5DC26026E980008B3B5 /* ViewController.h */,
+				29FBE5DD26026E980008B3B5 /* ViewController.m */,
+				29FBE6002602730F0008B3B5 /* ViewControllerB.h */,
+				29FBE6012602730F0008B3B5 /* ViewControllerB.m */,
+				29FBE5DF26026E980008B3B5 /* Main.storyboard */,
+				29FBE5E226026E9C0008B3B5 /* Assets.xcassets */,
+				29FBE5E426026E9C0008B3B5 /* LaunchScreen.storyboard */,
+				29FBE5E726026E9C0008B3B5 /* Info.plist */,
+				29FBE5E826026E9C0008B3B5 /* main.m */,
+			);
+			path = ZSearchBar;
+			sourceTree = "<group>";
+		};
+		29FBE5F126026EF80008B3B5 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				29FBE5FC260272E00008B3B5 /* icon_search@2x.png */,
+				29FBE5FB260272E00008B3B5 /* icon_search@3x.png */,
+				29FBE5F326026F060008B3B5 /* ZSearchBar.h */,
+				29FBE5F226026F060008B3B5 /* ZSearchBar.m */,
+			);
+			path = SearchBar;
+			sourceTree = SOURCE_ROOT;
+		};
+		9AA196B7B91FB1D00A1CBD69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3391BF5F00644A6D1047C1FB /* Pods_ZSearchBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29FBE5D226026E980008B3B5 /* ZSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FBE5EC26026E9C0008B3B5 /* Build configuration list for PBXNativeTarget "ZSearchBar" */;
+			buildPhases = (
+				D19FE565766BB0E0686FF655 /* [CP] Check Pods Manifest.lock */,
+				29FBE5CF26026E980008B3B5 /* Sources */,
+				29FBE5D026026E980008B3B5 /* Frameworks */,
+				29FBE5D126026E980008B3B5 /* Resources */,
+				7208D6A115B8F5A58B06B9BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSearchBar;
+			productName = ZSearchBar;
+			productReference = 29FBE5D326026E980008B3B5 /* ZSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29FBE5CB26026E980008B3B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					29FBE5D226026E980008B3B5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 29FBE5CE26026E980008B3B5 /* Build configuration list for PBXProject "ZSearchBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29FBE5CA26026E980008B3B5;
+			productRefGroup = 29FBE5D426026E980008B3B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29FBE5D226026E980008B3B5 /* ZSearchBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29FBE5D126026E980008B3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FBE5E626026E9C0008B3B5 /* LaunchScreen.storyboard in Resources */,
+				29FBE5E326026E9C0008B3B5 /* Assets.xcassets in Resources */,
+				29FBE5FD260272E00008B3B5 /* icon_search@3x.png in Resources */,
+				29FBE5E126026E980008B3B5 /* Main.storyboard in Resources */,
+				29FBE5FE260272E00008B3B5 /* icon_search@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7208D6A115B8F5A58B06B9BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZSearchBar/Pods-ZSearchBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZSearchBar/Pods-ZSearchBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZSearchBar/Pods-ZSearchBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D19FE565766BB0E0686FF655 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZSearchBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29FBE5CF26026E980008B3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FBE5DE26026E980008B3B5 /* ViewController.m in Sources */,
+				29FBE5D826026E980008B3B5 /* AppDelegate.m in Sources */,
+				29FBE5E926026E9C0008B3B5 /* main.m in Sources */,
+				29FBE5F426026F060008B3B5 /* ZSearchBar.m in Sources */,
+				29FBE6022602730F0008B3B5 /* ViewControllerB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29FBE5DF26026E980008B3B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29FBE5E026026E980008B3B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29FBE5E426026E9C0008B3B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29FBE5E526026E9C0008B3B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29FBE5EA26026E9C0008B3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29FBE5EB26026E9C0008B3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29FBE5ED26026E9C0008B3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA672EA4475122B37D36D68E /* Pods-ZSearchBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M88SBYD8M;
+				INFOPLIST_FILE = ZSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Z.ZSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29FBE5EE26026E9C0008B3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF232F2760AFB02FBA7E3A0E /* Pods-ZSearchBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M88SBYD8M;
+				INFOPLIST_FILE = ZSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Z.ZSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29FBE5CE26026E980008B3B5 /* Build configuration list for PBXProject "ZSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FBE5EA26026E9C0008B3B5 /* Debug */,
+				29FBE5EB26026E9C0008B3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FBE5EC26026E9C0008B3B5 /* Build configuration list for PBXNativeTarget "ZSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FBE5ED26026E9C0008B3B5 /* Debug */,
+				29FBE5EE26026E9C0008B3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29FBE5CB26026E980008B3B5 /* Project object */;
+}
